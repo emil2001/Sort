@@ -1,10 +1,10 @@
 ﻿  Sort.cpp
-E:\Emil\Programming\1sem\Sort\Sort\Sort.cpp(148,30): warning C4554: "&": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
-E:\Emil\Programming\1sem\Sort\Sort\Sort.cpp(161,15): warning C4101: k: неиспользованная локальная переменная
-E:\Emil\Programming\1sem\Sort\Sort\Sort.cpp(163,9): warning C4101: buf: неиспользованная локальная переменная
-E:\Emil\Programming\1sem\Sort\Sort\Sort.cpp(162,6): warning C4101: i_min: неиспользованная локальная переменная
-E:\Emil\Programming\1sem\Sort\Sort\Sort.cpp(164,16): warning C4101: time2: неиспользованная локальная переменная
-E:\Emil\Programming\1sem\Sort\Sort\Sort.cpp(161,18): warning C4101: l: неиспользованная локальная переменная
-E:\Emil\Programming\1sem\Sort\Sort\Sort.cpp(161,9): warning C4101: j: неиспользованная локальная переменная
-E:\Emil\Programming\1sem\Sort\Sort\Sort.cpp(161,12): warning C4101: r: неиспользованная локальная переменная
+E:\Emil\Programming\1sem\Sort\Sort\Sort.cpp(140,30): warning C4554: "&": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+E:\Emil\Programming\1sem\Sort\Sort\Sort.cpp(153,15): warning C4101: k: неиспользованная локальная переменная
+E:\Emil\Programming\1sem\Sort\Sort\Sort.cpp(155,9): warning C4101: buf: неиспользованная локальная переменная
+E:\Emil\Programming\1sem\Sort\Sort\Sort.cpp(154,6): warning C4101: i_min: неиспользованная локальная переменная
+E:\Emil\Programming\1sem\Sort\Sort\Sort.cpp(156,16): warning C4101: time2: неиспользованная локальная переменная
+E:\Emil\Programming\1sem\Sort\Sort\Sort.cpp(153,18): warning C4101: l: неиспользованная локальная переменная
+E:\Emil\Programming\1sem\Sort\Sort\Sort.cpp(153,9): warning C4101: j: неиспользованная локальная переменная
+E:\Emil\Programming\1sem\Sort\Sort\Sort.cpp(153,12): warning C4101: r: неиспользованная локальная переменная
   Sort.vcxproj -> E:\Emil\Programming\1sem\Sort\Debug\Sort.exe

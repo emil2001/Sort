@@ -14,24 +14,16 @@ double qsort(double *Mas, int first, int last)
 	mid = Mas[(l + f) / 2];
 	while(f<l)
 	{
-		while (Mas[f] < mid)
+		while (Mas[f] < mid) f++;
+		while (Mas[l] > mid) l--;
+		if (f<=l)
 		{
-			while(Mas[l] > mid)
-			{
-				if (f<=l)
-				{
-					buf = Mas[f];
-					Mas[f] = Mas[l];
-					Mas[l] = buf;
-					l--;
-					f++;
-				}
-				l--;
-			}
+			buf = Mas[f];
+			Mas[f] = Mas[l];
+			Mas[l] = buf;
+			l--;
 			f++;
 		}
-		f++;
-		l--;
 	}
 	if (first < l) qsort(Mas, first, l);
 	if (f < last) qsort(Mas, f, last);
@@ -191,9 +183,9 @@ int main()
 		for (int step = 0; step < N; step++)
 			old[step] = mas[step];
 		insertsort(mas);                          // insertsort
-		//for (i = 0; i < N; i++) 
-		//	{
-		//		printf("%lf ", mas[i]);
+		//for (i = N/2; i < N/2+10; i++) 
+			//{
+			//	printf("%lf ", mas[i]);
 		//	}
 		//printf("\n");
 		double t1 = double(clock()) / CLOCKS_PER_SEC - time1;
