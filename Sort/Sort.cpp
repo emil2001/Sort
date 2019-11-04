@@ -150,10 +150,8 @@ double insertsort(double* Mas)
 
 int main()
 {
-	int i, j, r, k, l;
-	int i_min;
-	double buf;
-	double time1, time2;
+	int i;
+	double time1;
 	
 	FILE* fp = fopen("results.txt", "wt");
 
